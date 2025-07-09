@@ -1,0 +1,9 @@
+🧭 Ethical Reflection
+One personal project where I’ve been particularly mindful of ethical AI principles is Homework Ally, my academic support tool designed to assist students with learning and productivity.
+To ensure ethical integrity in its development and deployment, I’ve adopted the following strategies:
+- Fairness & Bias Mitigation: I actively audit model outputs to detect potential biases—especially those that might favor specific languages, education levels, or cultural references. I plan to integrate techniques like user feedback scoring and diverse dataset testing to ensure equitable support for all learners.
+- Transparency & Explainability: I’ve made it a goal to simplify how AI decisions (like summaries or answers) are generated. Rather than presenting “magic answers,” the tool highlights sources, offers citations, and, where possible, explains the reasoning behind the response. This builds trust and encourages learning rather than rote acceptance.
+- Privacy & Data Control: The app avoids unnecessary data collection and is being developed with privacy-by-design in mind. No personally identifiable information is stored or shared unless explicitly permitted by users, and I aim to comply with principles aligned with GDPR.
+- Human-in-the-Loop Philosophy: While AI assists users, it doesn’t replace human educators. The app’s tone and suggestions are crafted to promote learning, not shortcuts or academic dishonesty. Educators and students are encouraged to use it as a supplement—not a substitute—for human guidance.
+- Accessibility & Inclusion: I continuously test the UI/UX to ensure it’s usable across a wide range of devices and for learners with varying abilities or resources.
+By grounding Homework Ally in these ethical AI pillars, I aim to create a tool that’s not just smart—but responsible, inclusive, and empowering
