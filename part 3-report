@@ -1,0 +1,11 @@
+
+📝 Report: COMPAS Bias Audit Summary (300 words)
+This audit evaluated racial bias in the COMPAS Recidivism Dataset using IBM’s AI Fairness 360 toolkit, focusing on disparities in risk score predictions between African-American and Caucasian defendants.
+The analysis revealed a significant disparity in false positive rates (FPR): African-American individuals were more likely to be incorrectly predicted as high-risk compared to their Caucasian counterparts. This suggests a systemic bias that may result in unfair treatment within judicial systems that rely on these risk assessments.
+To address this bias, we applied the Reweighing pre-processing algorithm, which adjusts the training dataset’s weights to balance representation across protected attributes. A logistic regression model trained on the reweighted dataset showed improved fairness, although a tradeoff in accuracy was observed. Post-intervention metrics demonstrated a reduced gap in FPR between racial groups, bringing performance closer to equitable standards.
+Despite improvements, bias was not entirely eliminated. This reinforces that bias mitigation is a continuous process requiring both technical interventions and ethical oversight. Further steps could include integrating other methods like adversarial debiasing or post-processing techniques.
+Recommendations:
+- Avoid deploying black-box models without fairness audits.
+- Require explainable models in high-stakes domains like criminal justice.
+- Continually retrain models with updated, bias-reduced datasets.
+Ultimately, this case illustrates the urgent need for transparent and accountable AI systems, especially when they impact real-world human outcomes.
