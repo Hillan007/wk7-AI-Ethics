@@ -1,0 +1,18 @@
+🏥 Ethical AI Use in Healthcare: Policy Guidelines
+1. ✅ Patient Consent Protocols
+- Informed Consent by Design: AI systems must provide clear, accessible, and non-technical explanations about how patient data will be used and the role AI plays in diagnosis, treatment, or monitoring.
+- Opt-In Participation: Patients must actively opt in to AI-assisted care, with an option to decline without prejudice.
+- Ongoing Consent and Control: Patients can withdraw consent at any time and should have control over data access, updates, and deletion (aligned with data protection laws like GDPR/HIPAA).
+- Inclusive Consent Materials: Consent tools must be available in local languages and accessible formats, including visual and auditory aids for patients with disabilities.
+
+2. ⚖️ Bias Mitigation Strategies
+- Representative Datasets: Training datasets must be regularly audited to ensure inclusion across race, gender, socioeconomic status, age, and geography.
+- Bias Testing and Auditing: Mandatory pre-deployment testing for disparate impact. Run post-deployment audits to monitor performance across demographic groups.
+- Human Oversight: Maintain expert review of AI decisions in critical healthcare workflows. AI should support—not replace—clinicians, especially in high-stakes decision-making.
+- Feedback Loops: Build in ways for providers and patients to report unfair or erroneous outcomes, and include those reports in future training.
+
+3. 🔍 Transparency Requirements
+- Explainable Outputs: AI decisions must include interpretable justifications and uncertainty estimates understandable to both clinicians and patients.
+- Disclosure of AI Use: Patients and providers must be informed when AI is in use, its purpose, and known limitations.
+- Documentation and Traceability: Maintain version histories, training data summaries, and decision logs for all AI tools used.
+- Public Reporting: Regularly publish fairness metrics, safety evaluations, and adverse incident data, subject to privacy safeguards.
