@@ -1,0 +1,35 @@
+🧪 Case 1: Biased Hiring Tool (Amazon)
+
+🔍 Source of Bias:
+- The training data was largely drawn from resumes submitted over a 10-year period—most of which came from male applicants. The model learned to associate male-coded language and experiences (e.g. “executed,” “captain”) with stronger candidates, penalizing resumes that included indicators of female identity (like attending a women’s college).
+🛠️ Three Fixes to Make the Tool Fairer:
+- Debias the Training Data:
+Use techniques like reweighting or re-sampling to balance gender representation or mask gender-identifying terms during model training.
+- Introduce Fairness Constraints in Model Design:
+Use algorithmic fairness methods (e.g. equalized odds, disparate impact mitigation) to reduce bias during the learning process.
+- Human Oversight & Hybrid Scoring:
+
+Combine AI recommendations with human judgment in the loop, especially during sensitive stages of recruitment.
+📊 Fairness Metrics to Evaluate Post-Correction:
+- Disparate Impact Ratio: Compares selection rates between groups (should be close to 1).
+- Equal Opportunity Difference: Measures the true positive rate across demographic groups.
+- Demographic Parity: Ensures each group has similar chances of being shortlisted.
+
+🕵🏽‍♂️ Case 2: Facial Recognition in Policing
+🚨 Ethical Risks:
+- Wrongful Arrests: Higher false-positive rates for minorities can lead to false identifications and unlawful detainment.
+- Privacy Violations: Continuous surveillance in public spaces raises concerns about consent and freedom of expression.
+- Lack of Accountability: Poor transparency makes it difficult to challenge or audit wrongful outcomes.
+
+🧭 Recommended Policies for Responsible Deployment:
+- Rigorous Auditing and Testing:
+Require independent audits for racial, gender, and age-based accuracy before public deployment.
+- Transparency and Consent:
+Law enforcement agencies should disclose where and how facial recognition is used. Individuals should be informed when their data is collected.
+- Use Case Restrictions:
+ 
+ Limit usage to specific high-risk situations (e.g. missing persons) and prohibit use in low-stakes or discriminatory surveillance.
+- Human-in-the-Loop Systems:
+Facial recognition should only assist—not replace—human decision-making in policing contexts.
+- Oversight Bodies:
+Create ethics boards or legal review panels to oversee deployment and address misuse claims.
