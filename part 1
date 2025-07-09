@@ -1,0 +1,35 @@
+🧠 1. Short Answer Questions
+Q1: Define algorithmic bias and provide two examples of how it manifests in AI systems.
+Algorithmic bias is when an AI system produces results that are systematically prejudiced due to flawed assumptions, biased training data, or unequal model design.
+Examples:
+- Recruitment algorithms that favor male candidates because past training data reflects historical hiring biases.
+- Credit scoring models that offer better loan conditions to certain demographics due to socioeconomic training data imbalances.
+
+Q2: Explain the difference between transparency and explainability in AI. Why are both important?
+- Transparency refers to how open and clear developers are about how an AI system was built, what data it uses, and how it makes decisions.
+- Explainability is the ability for people—especially non-technical users—to understand the reasoning behind a specific AI decision.
+Why both matter:
+- Enable trust and accountability.
+- Allow users and regulators to scrutinize systems.
+- Help detect and fix bias or errors.
+- Are essential for legal compliance, especially with regulations like GDPR.
+
+Q3: How does GDPR (General Data Protection Regulation) impact AI development in the EU?
+GDPR shapes AI development by enforcing:
+- Informed consent before using personal data.
+- Data minimization—only collecting what’s necessary.
+- Right to explanation, where users can demand clarity on automated decisions.
+- Right to erasure (“right to be forgotten”), letting users delete their data.
+- Accountability mechanisms to document and prove responsible data handling.
+This encourages developers to build AI systems with privacy by design and stronger human oversight.
+
+⚖️ 2. Ethical Principles Matching
+| Principle          | Definition | 
+| A) Justice         | Fair distribution of AI benefits and risks | 
+| B) Non-maleficence | Ensuring AI does not harm individuals or society | 
+| C) Autonomy        | Respecting users’ right to control their data and decisions | 
+| D) Sustainability  | Designing AI to be environmentally friendly | 
+
+
+
+
